@@ -75,7 +75,7 @@ The assumption is potentially not verified.
 The assumption is not verified as the residuals don't follow a normal law according to the Anderson-Darling test (pvalue < 0.05)
 
 ## Results
-The final linear regression model has a high pvalue, however the 5 assumptions are not verified. 
+The final linear regression model has a high R², however the 5 assumptions are not verified. 
 
 The model equation: 
 ln(y)= -0.21+1.8xOutliers_pieces+ β1xThemes+β2xPackagings+β3xAvailability+0.68xNumber_pieces
