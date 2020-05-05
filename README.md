@@ -35,7 +35,8 @@ Using a linear regression model, can we help predict the price of a lego set bas
   ![Distribution_transformed](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Distribution_2.png?raw=true)
   
   * Identifying outliers:
-  
+  ![Outliers](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Outliers.png?raw=true)
+  Solution: creating 2 new columns identifying outliers
   
  * Regression analysis:
  Dropping 9 more variables with the first analysis based on high pvalues
@@ -44,18 +45,29 @@ Using a linear regression model, can we help predict the price of a lego set bas
  * Checking the 5 assumptions for linear regression:
  
 1. Multicollinearity
+![Multicollineraity](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Correlations.png?raw=true)
+ 
 Dropping 5 more columns, we checked the assumptions.
 
+
+
 2. Linearity
+![Linearity](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Linearity.png?raw=true)
+
 The assumption is verified
 
 3. Autocorrelation
-The Durbin-Watson test shows a positive autocorrelation with a coefficient of 1.11
+
+<p>The Durbin-Watson test shows a positive autocorrelation with a coefficient of 1.11</p>
 
 4. Homoscedasticity
-The assumption is potentially not verified as the variance is increasing
+![Homoscedasticity](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Homoskedasticity.png?raw=true)
+
+The assumption is potentially not verified.
 
 5. Exogeneity of residuals
+![Exogeneity](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Residuals.png?raw=true)
+
 The assumption is not verified as the residuals don't follow a normal law according to the Anderson-Darling test (pvalue < 0.05)
 
 ## Results
