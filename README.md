@@ -23,7 +23,16 @@ Using a linear regression model, can we help predict the price of a lego set bas
   * Replacing "Year" by "Age" to avoid time series
   * Creating dummies for non-numerical columns
   * Checking if the dataset has duplicates - does not have any
+  
   * Convert numerical columns to be normally distributed using the boxcox method:
+  
+  Distribution in the dataset:
+  ![Distribution](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Distribution_1.png?raw=true)
+  
+  Both are lognormally distributed. 
+  
+  Distribution after using the boxcox method with a lambda 0:
+  ![Distribution_transformed](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Distribution_2.png?raw=true)
   
   * Identifying outliers:
   
