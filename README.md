@@ -16,7 +16,7 @@ Using a linear regression model, can we help predict the price of a lego set bas
 
 ### Steps
 <b>1. Data collection</b>
-Dataset imported from : 
+<p>Dataset imported from : https://github.com/seankross/lego/tree/master/data-tidy</p>
 
 <b>2. Data cleaning:</b>
  * Deleting 8 columns
@@ -42,7 +42,6 @@ Dataset imported from :
   
 <b>3. Regression analysis: </b>
  Dropping 9 more variables with the first analysis based on high pvalues
- 
  
 <b> 4. Checking the 5 assumptions for linear regression </b>
  
