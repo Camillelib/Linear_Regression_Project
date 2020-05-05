@@ -76,13 +76,16 @@ The assumption is not verified as the residuals don't follow a normal law accord
 ## Results
 The final linear regression model has a high R², however the 5 assumptions are not verified. 
 
-The model equation: 
-ln(y)= -0.21+1.8xOutliers_pieces+ β1xThemes+β2xPackagings+β3xAvailability+0.68xNumber_pieces
-
 <u>Result of the OLS model:</u>
   
 ![Results](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Results.png?raw=true)
-  
+
+The model equation: 
+ln(y)= -0.21+1.8xOutliers_pieces+ β1xThemes+β2xPackagings+β3xAvailability+0.68xNumber_pieces
+
+Plotting the model :
+![Plotting](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Final_result.png?raw=true)
+
 
 ## Conclusion
 The model can be used to explain the current prices of these lego sets however is not yet usable for predictions as all assumptions are not checked.
