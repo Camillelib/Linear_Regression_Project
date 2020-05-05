@@ -80,6 +80,10 @@ The final linear regression model has a high pvalue, however the 5 assumptions a
 The model equation: 
 ln(y)= -0.21+1.8xOutliers_pieces+ β1xThemes+β2xPackagings+β3xAvailability+0.68xNumber_pieces
 
+Result of the OLS model:
+![Results](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Results.png?raw=true)
+  
+
 ## Conclusion
 The model can be used to explain the current prices of these lego sets however is not yet usable for predictions as all assumptions are not checked.
 
