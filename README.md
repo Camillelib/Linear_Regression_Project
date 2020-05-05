@@ -1,4 +1,4 @@
-# Predicting the price of a Lego Set with linear regression
+# Applying Linear Regression to a Lego dataset
 
 ![Lego](https://www.lego.com/cdn/cs/set/assets/blt43d71bdb7a2ee793/pick-a-brick-banner-background-large.jpg?width=1320&height=200&dpr=1)
 
