@@ -15,16 +15,18 @@ Using a linear regression model, can we help predict the price of a lego set bas
 * matplotlib.pyplot
 
 ### Steps
-* Dataset imported from : 
-* Data cleaning: 
-  * Deleting 8 columns
-  * Deleting ~2000 empty rows
-  * Reducing the number of themes
-  * Replacing "Year" by "Age" to avoid time series
-  * Creating dummies for non-numerical columns
-  * Checking if the dataset has duplicates - does not have any
+<b>1. Data collection</b>
+Dataset imported from : 
+
+<b>2. Data cleaning:</b>
+ * Deleting 8 columns
+ * Deleting ~2000 empty rows  
+ * Reducing the number of themes
+ * Replacing "Year" by "Age" to avoid time series
+ * Creating dummies for non-numerical columns
+ * Checking if the dataset has duplicates - does not have any
   
-  * Convert numerical columns to be normally distributed using the boxcox method:
+ * Convert numerical columns to be normally distributed using the boxcox method:
   
   Distribution in the dataset:
   ![Distribution](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Distribution_1.png?raw=true)
@@ -34,30 +36,28 @@ Using a linear regression model, can we help predict the price of a lego set bas
   Distribution after using the boxcox method with a lambda 0:
   ![Distribution_transformed](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Distribution_2.png?raw=true)
   
-  * Identifying outliers:
+ * Identifying outliers:
   ![Outliers](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Outliers.png?raw=true)
   Solution: creating 2 new columns identifying outliers
   
- * Regression analysis:
+<b>3. Regression analysis: </b>
  Dropping 9 more variables with the first analysis based on high pvalues
  
  
- * Checking the 5 assumptions for linear regression:
+<b> 4. Checking the 5 assumptions for linear regression </b>
  
 1. Multicollinearity
 ![Multicollineraity](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Correlations.png?raw=true)
  
 Dropping 5 more columns, we checked the assumptions.
 
-
-
 2. Linearity
+<p></p>
 ![Linearity](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Linearity.png?raw=true)
 
 The assumption is verified
 
 3. Autocorrelation
-
 <p>The Durbin-Watson test shows a positive autocorrelation with a coefficient of 1.11</p>
 
 4. Homoscedasticity
