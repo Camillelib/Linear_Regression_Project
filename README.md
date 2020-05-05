@@ -79,7 +79,8 @@ The final linear regression model has a high R², however the 5 assumptions are 
 The model equation: 
 ln(y)= -0.21+1.8xOutliers_pieces+ β1xThemes+β2xPackagings+β3xAvailability+0.68xNumber_pieces
 
-Result of the OLS model:
+<u>Result of the OLS model:</u>
+  
 ![Results](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Results.png?raw=true)
   
 
