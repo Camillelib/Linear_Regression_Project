@@ -37,8 +37,9 @@ Using a linear regression model, can we help predict the price of a lego set bas
   ![Distribution_transformed](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Distribution_2.png?raw=true)
   
  * Identifying outliers:
-  ![Outliers](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Outliers.png?raw=true)
-  Solution: creating 2 new columns identifying outliers
+
+ ![Outliers](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Outliers.png?raw=true)
+ Solution: creating 2 new columns identifying outliers
   
 <b>3. Regression analysis: </b>
  Dropping 9 more variables with the first analysis based on high pvalues
