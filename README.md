@@ -47,25 +47,29 @@ Dataset imported from :
 <b> 4. Checking the 5 assumptions for linear regression </b>
  
 1. Multicollinearity
+
 ![Multicollineraity](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Correlations.png?raw=true)
  
-Dropping 5 more columns, we checked the assumptions.
+Dropping 5 more columns, we checked the assumption.
 
 2. Linearity
-<p></p>
+
 ![Linearity](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Linearity.png?raw=true)
 
 The assumption is verified
 
 3. Autocorrelation
+
 <p>The Durbin-Watson test shows a positive autocorrelation with a coefficient of 1.11</p>
 
 4. Homoscedasticity
+
 ![Homoscedasticity](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Homoskedasticity.png?raw=true)
 
 The assumption is potentially not verified.
 
 5. Exogeneity of residuals
+
 ![Exogeneity](https://github.com/Camillelib/Linear_Regression_Project/blob/master/Output/Residuals.png?raw=true)
 
 The assumption is not verified as the residuals don't follow a normal law according to the Anderson-Darling test (pvalue < 0.05)
