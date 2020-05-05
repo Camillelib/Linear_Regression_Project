@@ -53,5 +53,8 @@ The assumption is not verified as the residuals don't follow a normal law accord
 The final linear regression model has a high pvalue, however the 5 assumptions are not verified. 
 
 The model equation: 
-ln(y)= -0.21+1.8*Outliers_pieces+ β1*Themes+β2*Packagings+β3*Availability+0.68*Number_pieces
+ln(y)= -0.21+1.8xOutliers_pieces+ β1xThemes+β2xPackagings+β3xAvailability+0.68xNumber_pieces
+
+## Conclusion
+The model can be used to explain the current prices of these lego sets however is not yet usable for predictions as all assumptions are not checked.
 
